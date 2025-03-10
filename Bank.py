@@ -1,17 +1,3 @@
-# complex bank application with multiple accounts, transaction history, and a menu-driven interface for managing users.
-
-# Features:
-# ✔️ Multiple users can create accounts
-# ✔️ Deposit & Withdraw funds
-# ✔️ View account balance
-# ✔️ Transaction history
-# ✔️ Admin dashboard for managing accounts
-# ✔️ Interest Calculation – Earn interest on your savings
-# ✔️ Loan System – Take loans and repay in installments
-# ✔️ Online Transfers – Transfer money between accounts
-
-
-
 import uuid
 from datetime import datetime
 
@@ -205,57 +191,3 @@ class BankSystem:
 if __name__ == "__main__":
     bank_system = BankSystem()
     bank_system.run()
-
-
-#  Example Run
-# 🏦 Welcome to the Bank System
-# 1️⃣ Create Account
-# 2️⃣ Access Account
-# 3️⃣ Admin Dashboard
-# 4️⃣ Exit
-
-# Choose an option: 1
-# Enter account holder's name: John Doe
-# Enter initial deposit amount: 1000
-
-# 🎉 Account created successfully! Your account number is A1B2C3D4
-
-# 🏦 Account Menu
-# 1️⃣ Deposit
-# 2️⃣ Withdraw
-# 3️⃣ Check Balance
-# 4️⃣ Transaction History
-# 5️⃣ Exit
-
-# Choose an option: 2
-# Enter withdrawal amount: 500
-# ✅ 500.00 withdrawn successfully. New balance: 500.00
-
-# 🏦 Account Menu
-# 6️⃣ Take Loan
-# Enter loan amount: 2000
-# 🏦 Loan of 2000.00 approved. New balance: 5000.00
-
-
-# 8️⃣ Transfer Money
-# Enter recipient's account number: ABC12345
-# Enter transfer amount: 1000
-# 🔄 Transfer of 1000.00 to Alex successful.
-
-
-
-# How It Works
-# Run the program and choose an option from the main menu.
-# Create an account by providing your name and initial deposit.
-# Access your account using your unique account number.
-# Deposit, withdraw, check balance, or view transaction history.
-# Admins can view all accounts (admin dashboard).
-# Exit the system when done.4
-
-
-# 🚀 Why is this more complex?
-# ✅ Uses OOP principles (Encapsulation & Classes)
-# ✅ Multiple accounts support
-# ✅ Transaction history for tracking deposits/withdrawals
-# ✅ Admin dashboard for overview
-# ✅ Error handling for invalid inputs
